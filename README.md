@@ -5,4 +5,4 @@
 ##### 23a
 ###### 23a
 
-! [nkust]  (nkust.png "NKUST")
+![NKUST](nkust.png '高科大')
