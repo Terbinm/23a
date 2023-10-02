@@ -8,7 +8,7 @@ gantt
     title 甘特圖練習
 
     section 測試任務
-    研擬計畫 : a1, 2023-01-01  , 10d
+    研擬計畫 : a1, 2023-01-01  , 1d
     任務分配 : a2, after a1  , 4d
     取得硬體 : a3, after a1  , 17d
     程式開發 : a4, after a2  , 70d
@@ -22,8 +22,7 @@ gantt
 ```
 
 # PERT 圖
-
-![Alt text](image.png)
+![Alt text](image-3.png)
 
 # 關鍵路徑
 
