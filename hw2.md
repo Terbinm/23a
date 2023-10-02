@@ -23,10 +23,10 @@ gantt
 
 # PERT 圖
 
+![Alt text](image.png)
 
 # 關鍵路徑
 
-![Alt text](image.png)
-
+1 -> 2 -> 4 -> 6 -> 9 -> 11
 
 ![Alt text](image-2.png)
