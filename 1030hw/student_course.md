@@ -1,84 +1,44 @@
 ```java
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-/**
- * 
- */
 public class Student {
+    private String name;
+    private List<Course> courses;
 
-    /**
-     * Default constructor
-     */
-    public Student() {
+    public Student(String name) {
+        this.name = name;
+        this.courses = new ArrayList<>();
     }
 
-    /**
-     * 
-     */
-    public void name;
-
-    /**
-     * 
-     */
-    public void student_course;
-
-    /**
-     * @param String name
-     */
-    public void Student(void String name) {
-        // TODO implement here
+    public boolean addCourse(Course course) {
+        if (courses.size() < 10) {
+            courses.add(course);
+            return true;
+        }
+        return false;
     }
 
-    /**
-     * @param Course course
-     */
-    public void registerCourse(void Course course) {
-        // TODO implement here
+    public boolean removeCourse(Course course) {
+        return courses.remove(course);
     }
 
-    /**
-     * 
-     */
-    public void printCourses() {
-        // TODO implement here
+    public List<Course> getCourses() {
+        return courses;
     }
 
+    // Other getters, setters, and relevant methods
 }
-```
-## course
-```
 
-import java.util.*;
-
-/**
- * 
- */
 public class Course {
+    private String courseName;
 
-    /**
-     * Default constructor
-     */
-    public Course() {
+    public Course(String courseName) {
+        this.courseName = courseName;
     }
 
-    /**
-     * 
-     */
-    public void course_name;
-
-    /**
-     * @param String name
-     */
-    public void Course(void String name) {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
-    public void getName() {
-        // TODO implement here
-    }
-
+    // Getters, setters, and other relevant methods
 }
+
+
 ```
